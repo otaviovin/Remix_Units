@@ -7,12 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "changeCounter",
+				"name": "balanceReceived",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,12 +20,19 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getContractBalance",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "uint256",
 						"name": "",
-						"type": "address"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -38,26 +40,20 @@
 			},
 			{
 				"inputs": [],
-				"name": "theMessage",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
+				"name": "withdrawalAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_newMessage",
-						"type": "string"
+						"internalType": "address payable",
+						"name": "to",
+						"type": "address"
 					}
 				],
-				"name": "updateTheMessage",
+				"name": "withdrawalToAddress",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -76,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SendMoney.sol": "TheBlockchainMessenger"
+			"contracts/SendMoney.sol": "SendWithdrawalMoney"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -91,11 +87,11 @@
 	},
 	"sources": {
 		"contracts/SendMoney.sol": {
-			"keccak256": "0x4f4f71c38560a56148ccf97ec5ef58ee1b9c1113f54170fcd67c30566ee3252d",
+			"keccak256": "0xb12d966157111955ee43228b6cb65c5986478bbd830368c4fc5a0af3dfca63c0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5cb1d1b3da94b5eec002bf86c5ab02700f3ebebc7f3b3e3e3561d850f5fc318f",
-				"dweb:/ipfs/QmUWdoJuseXCbuHZzTJrRVu3MT16Mqz76972a5SQdTX7L8"
+				"bzz-raw://ff63757cf3bdbc001c367f2f133d01157a25bd13645079dd789c610b4e720938",
+				"dweb:/ipfs/QmZmEkJ9TS6aSbr1Q2pai78ai8sk89v41AiQ9p1ybqE3L2"
 			]
 		}
 	},
