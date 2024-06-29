@@ -76,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/GasGolf.sol": "TheBlockchainMessenger"
+			"contracts/TheBlockchainMessenger.sol": "TheBlockchainMessenger"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -90,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/GasGolf.sol": {
-			"keccak256": "0xb6276b7e3cfcdac471e79c552af7ad37128c48d4ffb60648b33aabdf0449941a",
+		"contracts/TheBlockchainMessenger.sol": {
+			"keccak256": "0x4f4f71c38560a56148ccf97ec5ef58ee1b9c1113f54170fcd67c30566ee3252d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4f295320e3c45f0d6a9715415533517f2dd50d258e37730876ae39874d5fa694",
-				"dweb:/ipfs/QmTbkCJdrVZi4eurD6G8UoyPchnqwFv5rC5V34nHtQoBzE"
+				"bzz-raw://5cb1d1b3da94b5eec002bf86c5ab02700f3ebebc7f3b3e3e3561d850f5fc318f",
+				"dweb:/ipfs/QmUWdoJuseXCbuHZzTJrRVu3MT16Mqz76972a5SQdTX7L8"
 			]
 		}
 	},
