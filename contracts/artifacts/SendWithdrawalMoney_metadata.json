@@ -72,7 +72,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SendMoney.sol": "SendWithdrawalMoney"
+			"contracts/Units.sol": "SendWithdrawalMoney"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -86,7 +86,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SendMoney.sol": {
+		"contracts/Units.sol": {
 			"keccak256": "0xb12d966157111955ee43228b6cb65c5986478bbd830368c4fc5a0af3dfca63c0",
 			"license": "MIT",
 			"urls": [
